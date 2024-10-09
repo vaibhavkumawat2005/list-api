@@ -14,8 +14,9 @@
 <h2>Screenshots & Screen Recording</h2>
 <p>Below is an example of the application's UI, displaying the breed dropdown and a random dog image & video.</p>
 
+https://github.com/user-attachments/assets/38ded889-13bb-4b49-bdd2-085eb34236b4
 
-https://github.com/user-attachments/assets/ffb0efbd-0374-4a66-bdeb-a2bd13e8ff0b
+
 ![image alt](https://github.com/vaibhavkumawat2005/list-api/blob/ad30a1f2ab7a37b2c459914fc83b2cf28884348b/asset/image/Screenshot%202024-10-09%20223652.png)
 ![image alt](https://github.com/vaibhavkumawat2005/list-api/blob/5135e544168f5cd4f7ae98329b5fadda3baf678f/asset/image/Screenshot%202024-10-09%20223824.png)
 ![image alt](https://github.com/vaibhavkumawat2005/list-api/blob/5135e544168f5cd4f7ae98329b5fadda3baf678f/asset/image/Screenshot%202024-10-09%20223840.png)
