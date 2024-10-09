@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url(/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+   
+}
+
+
+.container {
+    background: #CC9078;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: 80px 200px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.selection {
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+select:hover {
+    background-color: #e9e9e9;
+}
+
+#dog-image {
+    margin-top: 20px;
+    background-color:#DFE3DC;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 0px 200px;
+    height: 300px;
+
+
+}
+
+#dog-image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    
+}
+
+#btn-get-sub-breed {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+#btn-get-sub-breed:hover {
+    background-color: #357ABD;
+}
+
+#sub-breed-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#sub-breed-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+#sub-breed-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.sub-breed{
+
+    background: #CC9078;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: 70px;
+
+    position: absolute  ;
+    top: 10px;
+    right: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
