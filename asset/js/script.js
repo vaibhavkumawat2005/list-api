@@ -39,12 +39,16 @@ selectbreed.addEventListener("change" , (event) =>{
         });
     }
 })
-
 const button = document.getElementById("btn-get-sub-breed");
 const list = document.getElementById("sub-breed-list");
 
+
+
 button.addEventListener("click", () => {
-  fetch("https://dog.ceo/api/breed/hound/list")
+  const selectBreed = selectbreed.value;
+
+  if(selectBreed !== "select a dog breed"){
+  fetch(`https://dog.ceo/api/breed/${selectBreed}/list`)
     .then((response) => response.json())
     .then((data) => {
       list.innerHTML = "";
@@ -61,4 +65,9 @@ button.addEventListener("click", () => {
     .catch((error) => {
       console.log(error);
     });
+}else{
+    list.innerHTML = "<li>Please select a breed first</li> "
+}
 });
+
+
